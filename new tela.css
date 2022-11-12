@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Lato&display=swap');
+
+*{
+margin:0 ;
+padding:0 ;
+box-sizing:border-box ;
+
+}
+
+body{
+
+    background-color:rgb(1, 4, 9);
+    font-family: sans-serif ;
+    font-weight:300 ;
+
+
+}
+
+.box{
+
+    background-color:rgb(13, 17, 23); 
+    width:400px ;
+    height:400px ;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) ;
+    border-radius:10px ;
+  border:solid 0.2px  rgb(162, 160, 165);  
+
+}
+
+for{
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+   align-items: center ;
+}
+
+form , h1 {     
+    text-align:center ;
+    color:snow ;
+    margin:30px ;
+    font-size:40px ;
+
+}
+
+.input{
+    text-align:center ;
+    font-size:16px ;
+    font-weight:300 ;
+    width:180px ;
+    height:58px ;
+    margin:15px ;
+    border-radius:24px ;
+    background-color:black ;
+    border:solid 2px rgb(71, 71, 219) ;
+    color:snow ;
+    outline:0 ;
+    transition:0.3s ;
+
+}
+
+.input:focus{
+
+    width:250px ;
+    border:solid 2px  rgb(158, 238, 131) ;
+
+}
+.button{
+    margin:10px ;
+    width: 150px;
+    height:50px ;
+    border-radius:24 ;
+    font-size:20px ;
+    background-color:black ;
+    color:snow ;
+    border:solid 2px rgb(91, 243, 205) ;
+    transition:0,5s ;
+}
+.button hover {
+    background-color: rgb(141, 237, 141);
+}
